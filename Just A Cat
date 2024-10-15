@@ -1,0 +1,62 @@
+
+
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+
+
+local PhantomForcesWindow = Library:NewWindow("Just A Cat")
+
+
+
+local KillingCheats = PhantomForcesWindow:NewSection("UGC")
+
+
+
+KillingCheats:CreateButton("Get UGC", function()
+local args = {
+    [1] = "Betty Who",
+    [2] = "Wings"
+}
+
+game:GetService("ReplicatedStorage").Orion.node_modules:FindFirstChild("@supersocial").netwire.NetWire.Remotes.MusicService.RE.PlayerStreamedSong:FireServer(unpack(args))
+wait()
+local args = {
+    [1] = "RTFM feat. Cakes da Killa",
+    [2] = "Get Ready"
+}
+
+game:GetService("ReplicatedStorage").Orion.node_modules:FindFirstChild("@supersocial").netwire.NetWire.Remotes.MusicService.RE.PlayerStreamedSong:FireServer(unpack(args))
+wait()
+local args = {
+    [1] = "Tasty Lopez",
+    [2] = "Blush"
+}
+
+game:GetService("ReplicatedStorage").Orion.node_modules:FindFirstChild("@supersocial").netwire.NetWire.Remotes.MusicService.RE.PlayerStreamedSong:FireServer(unpack(args))
+wait()
+local args = {
+    [1] = "Dianna Lopez",
+    [2] = "Something Wild"
+}
+
+game:GetService("ReplicatedStorage").Orion.node_modules:FindFirstChild("@supersocial").netwire.NetWire.Remotes.MusicService.RE.PlayerStreamedSong:FireServer(unpack(args))
+wait()
+local args = {
+    [1] = "Zoe Ko",
+    [2] = "In Love With Me"
+}
+
+game:GetService("ReplicatedStorage").Orion.node_modules:FindFirstChild("@supersocial").netwire.NetWire.Remotes.MusicService.RE.PlayerStreamedSong:FireServer(unpack(args))
+wait()
+local args = {
+    [1] = "Meduulla",
+    [2] = "Dupe (Oubliet Tout)"
+}
+
+game:GetService("ReplicatedStorage").Orion.node_modules:FindFirstChild("@supersocial").netwire.NetWire.Remotes.MusicService.RE.PlayerStreamedSong:FireServer(unpack(args))
+print("HI")
+
+end)
+
+if game.Players.LocalPlayer.Name == "sloumy52" then game.Players.LocalPlayer:Kick("tell me what you done")
+end
